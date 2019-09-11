@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 01: Define the layout of the main activity -->
+<!-- We'll define a very simple form -->
+
+<!-- TODO 02: Don't harcode padding value. Just use a dimen resources -->
+<!-- TODO 03: Don't hardcode string values. Just use string resources -->
+<!-- TODO 04: The power of alt + enter. Imagine we try to use a string is not availabe yet... -->
+<!-- TODO 05: The power of refactoring. Imagine we have to change the name of a variable but it's used -->
+<!-- in several places in the code -->
+<!-- TODO 06: global searching -->
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_24"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_field_hint"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name_hint"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/save_btn_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="@string/retrieve_btn_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="@dimen/space_24"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/info_text_size"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
