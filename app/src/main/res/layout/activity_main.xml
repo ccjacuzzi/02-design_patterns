@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TODO 01: Create new package for the classes that represent the model -->
-<!-- TODO 02: Create inside the new package a class that represents a very simple User: just and id and a name -->
-<!-- TODO 03: Create inside the new package a class that represents the data source of the app, from which we get information about user -->
+<!-- TODO 04: Create new package for the classes that represent the model -->
+<!-- TODO 05: Create inside the new package a class that represents a very simple User: just and id and a name -->
+<!-- TODO 06: Create inside the new package a class that represents the data source of the app, from which we get information about user -->
 <!-- NOTE: We model that data source defining a hashMap -->
 
 <LinearLayout android:layout_width="match_parent"
